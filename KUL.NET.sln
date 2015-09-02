@@ -3,8 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homeworks", "Homeworks", "{F71220FE-4868-4B1B-9945-64D9E814683B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A740E613-100B-4E83-B791-4EFE3760596A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{E42A18CE-8196-49AF-9172-89AE39EF295F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Podstawy", "01.Podstawy", "{29EF64F1-5D0A-4064-B738-E08EB9212ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Podstawy", "01.Podstawy", "{55DB4258-070F-415E-9661-29F90D0A40EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Podstawy", "01.Podstawy", "{70D11C2E-2B55-40D8-8603-DCE67207E5D8}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29EF64F1-5D0A-4064-B738-E08EB9212ED4} = {A740E613-100B-4E83-B791-4EFE3760596A}
+		{55DB4258-070F-415E-9661-29F90D0A40EC} = {F71220FE-4868-4B1B-9945-64D9E814683B}
+		{70D11C2E-2B55-40D8-8603-DCE67207E5D8} = {E42A18CE-8196-49AF-9172-89AE39EF295F}
 	EndGlobalSection
 EndGlobal
