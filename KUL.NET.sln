@@ -10,12 +10,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{E42A18CE-8196-49AF-9172-89AE39EF295F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Podstawy", "01.Podstawy", "{29EF64F1-5D0A-4064-B738-E08EB9212ED4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Operatory.png = ..\..\Operatory.png
+		..\..\..\Downloads\TabelaCS.jpg = ..\..\..\Downloads\TabelaCS.jpg
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Podstawy", "01.Podstawy", "{55DB4258-070F-415E-9661-29F90D0A40EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Podstawy", "01.Podstawy", "{70D11C2E-2B55-40D8-8603-DCE67207E5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmienne_Instrukcje_Komentarze", "Modules\01.Podstawy\Zmienne_Instrukcje_Komentarze\Zmienne_Instrukcje_Komentarze.csproj", "{D37D843E-212C-42EF-8462-BF72F417B8C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AZmienne_Instrukcje_Komentarze", "Modules\01.Podstawy\Zmienne_Instrukcje_Komentarze\AZmienne_Instrukcje_Komentarze.csproj", "{D37D843E-212C-42EF-8462-BF72F417B8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BWbudowaneTypyDanych_Operatory_SterowaniePrzeplywem", "Modules\01.Podstawy\WbudowaneTypyDanych_Operatory_SterowaniePrzeplywem\BWbudowaneTypyDanych_Operatory_SterowaniePrzeplywem.csproj", "{CF0E6292-A29B-43E6-9DD0-318431C41AF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,10 @@ Global
 		{D37D843E-212C-42EF-8462-BF72F417B8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D37D843E-212C-42EF-8462-BF72F417B8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D37D843E-212C-42EF-8462-BF72F417B8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0E6292-A29B-43E6-9DD0-318431C41AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0E6292-A29B-43E6-9DD0-318431C41AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0E6292-A29B-43E6-9DD0-318431C41AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0E6292-A29B-43E6-9DD0-318431C41AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +46,6 @@ Global
 		{55DB4258-070F-415E-9661-29F90D0A40EC} = {F71220FE-4868-4B1B-9945-64D9E814683B}
 		{70D11C2E-2B55-40D8-8603-DCE67207E5D8} = {E42A18CE-8196-49AF-9172-89AE39EF295F}
 		{D37D843E-212C-42EF-8462-BF72F417B8C6} = {29EF64F1-5D0A-4064-B738-E08EB9212ED4}
+		{CF0E6292-A29B-43E6-9DD0-318431C41AF9} = {29EF64F1-5D0A-4064-B738-E08EB9212ED4}
 	EndGlobalSection
 EndGlobal

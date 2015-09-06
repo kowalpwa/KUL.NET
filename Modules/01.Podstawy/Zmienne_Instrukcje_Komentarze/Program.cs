@@ -25,9 +25,9 @@ namespace Zmienne_Instrukcje_Komentarze
             // Niejawne określenie typu danych.
             var dowolny = "Każdy typ, ale trzeba uważać!";
 
-            var zFloat = 123.12f;
+            var zFloat = 123.12F;
 
-            var zDecimal = 321.12345;
+            var zDecimal = 321.12345M;
 
 
             // INSTRUKCJE - WYKORZYSTYWANIE DANYCH.
@@ -45,8 +45,14 @@ namespace Zmienne_Instrukcje_Komentarze
             Console.WriteLine("Hello World");
 
             bool czyRowne = 2 == 2;
-            
-            // Operatory mają swoje priorytety
+
+            /* Operatory mają swoje priorytety
+             
+             * Komentarz wielowierszowy
+             
+             * 
+             * Dalej ten sam komentarz
+             */
 
 
             Console.ReadKey();
