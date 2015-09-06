@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Numerics;
-using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 
 namespace WbudowaneTypyDanych_Operatory_SterowaniePrzeplywem
@@ -43,6 +42,8 @@ namespace WbudowaneTypyDanych_Operatory_SterowaniePrzeplywem
             object magia = "W typie object możemy umieścić WSZYSTKO";
             Console.WriteLine("Typ object jako string: " + magia);
             magia = 12M;
+
+            int[] tablicaLiczb = new[] { 1, 2, 3, 4, 5, 6, 7 };
             
 
 
@@ -76,10 +77,12 @@ namespace WbudowaneTypyDanych_Operatory_SterowaniePrzeplywem
             int wieksza = (4 > 3) ? 4 : 3;
             Console.WriteLine("Wartość zmiennej wieksza = {0}", wieksza);
 
+            
 
             var j = Regex.IsMatch("asd@ss.pl", @"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
 
             var czyKobieta = Regex.IsMatch("ad", @"^.*a$");
+
 
             Console.ReadKey();
         }
