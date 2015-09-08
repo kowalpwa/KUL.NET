@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Miejsce deklaracji przestrzeni nazw
+using System;
 
-namespace Zmienne_Instrukcje_Komentarze
+namespace Zmienne_Instrukcje_Komentarze // Nasza przestrzeń nazw
 {
-    class Program
+    // Przestrzeń nazw <- Typ <- Reszta składników
+
+    class Program // Domyślnie stworzona klasa
     {
         // Miejsce startu programu.
         static void Main(string[] args)
@@ -41,6 +40,7 @@ namespace Zmienne_Instrukcje_Komentarze
             int wynik = 2 + 2*(2 - 4) + 8;
 
             // 2 + 2 to Samo wyrażenie, ale int wynik2 = 2 + 2; to instrukcja wyrażenia.
+            // Wyrażenie to fragment kodu, który generuje pewną wartość.
 
             Console.WriteLine("Hello World");
 

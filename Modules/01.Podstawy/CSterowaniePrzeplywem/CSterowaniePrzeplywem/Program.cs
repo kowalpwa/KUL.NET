@@ -12,9 +12,9 @@ namespace CSterowaniePrzeplywem
         {
             // Instrukcja wyboru if
 
-            int wiek;
+            int wiek = 0;
             Console.Write("Podaj swój wiek: ");
-            wiek = int.Parse(Console.ReadLine());
+            wiek = int.Parse(Console.ReadLine());// Pobranie danych z klawiatury + konwersja na int
 
             if (wiek > 18)// W środku nawiasów warunek logiczny
             {
@@ -53,7 +53,7 @@ namespace CSterowaniePrzeplywem
                 case 3:
                     Console.WriteLine("Hajs się zaczyna zgadzać :D");
                     break;
-                default:
+                default: // default jest opcjonalny - jeśli go nie będzie to nie wywoła to błędu
                     Console.WriteLine("Im więcej wiesz tym więcej widzisz rzeczy do nauczenia.");
                     break;
             }

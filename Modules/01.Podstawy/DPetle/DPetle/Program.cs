@@ -31,6 +31,9 @@ namespace DPetle
                 Console.Write("Podaj 6: ");
                 int.TryParse(Console.ReadLine(), out ile2);
 
+                if (ile2 > 6)// Przerwanie wykonywania pętli
+                    break;
+
             } while (ile2 != 6);
 
 
@@ -44,6 +47,15 @@ namespace DPetle
 
             Console.WriteLine("\n\n");
 
+            for (int i = 0; i < 5; i++)
+            {
+                if(i % 2 != 0) // Pominięcie iteracji pętli + warunek nieparzystości
+                    continue;
+
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("\n\n");
 
             // Pętla foreach - przetworzy każdy element w danej kolekcji
 

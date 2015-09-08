@@ -43,6 +43,8 @@ namespace WbudowaneTypyDanych_Operatory_SterowaniePrzeplywem
             Console.WriteLine("Typ object jako string: " + magia);
             magia = 12M;
 
+            // O tablicach słów kilka
+
             int[] tablicaLiczb = new[] { 1, 2, 3, 4, 5, 6, 7 };
             
 
