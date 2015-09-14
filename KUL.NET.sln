@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSterowaniePrzeplywem", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPetle", "Modules\01.Podstawy\DPetle\DPetle\DPetle.csproj", "{9630DA12-A89A-48B3-8F8E-996A3794EF24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMetody", "Modules\01.Podstawy\EMetody\EMetody\EMetody.csproj", "{A2062EDD-D7FE-463A-8D39-81B5675EB975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{9630DA12-A89A-48B3-8F8E-996A3794EF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9630DA12-A89A-48B3-8F8E-996A3794EF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9630DA12-A89A-48B3-8F8E-996A3794EF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2062EDD-D7FE-463A-8D39-81B5675EB975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2062EDD-D7FE-463A-8D39-81B5675EB975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2062EDD-D7FE-463A-8D39-81B5675EB975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2062EDD-D7FE-463A-8D39-81B5675EB975}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +67,6 @@ Global
 		{CF0E6292-A29B-43E6-9DD0-318431C41AF9} = {29EF64F1-5D0A-4064-B738-E08EB9212ED4}
 		{AA1F30DA-0E13-4457-9196-3D3922818B4A} = {29EF64F1-5D0A-4064-B738-E08EB9212ED4}
 		{9630DA12-A89A-48B3-8F8E-996A3794EF24} = {29EF64F1-5D0A-4064-B738-E08EB9212ED4}
+		{A2062EDD-D7FE-463A-8D39-81B5675EB975} = {29EF64F1-5D0A-4064-B738-E08EB9212ED4}
 	EndGlobalSection
 EndGlobal

@@ -14,7 +14,7 @@ namespace DPetle
 
             int ile = 0;
 
-            while (ile != 5)
+            while (ile != 5) // Sprawdzany warunek, a później jeśli true wykonywane ciało pętli
             {
                 Console.Write("Podaj 5: ");
                 int.TryParse(Console.ReadLine(), out ile);
@@ -26,7 +26,7 @@ namespace DPetle
 
             int ile2;
 
-            do
+            do // Najpierw jest wykonywane ciało pętli, a później jest sprawdzany warunek
             {
                 Console.Write("Podaj 6: ");
                 int.TryParse(Console.ReadLine(), out ile2);
