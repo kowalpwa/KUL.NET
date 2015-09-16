@@ -11,39 +11,54 @@ namespace AElementyOrazDefiniowanieKlas
     {
         // namespace -> class -> składowe klasy 
 
-        // Właściwości - reprezentowanie stanu obiektu
+        // Właściwości - reprezentowanie stanu obiektu.
+
 
         public string Imie { get; set; }
-        private string Nazwisko { get; set; }
+
+        // Nazwisko można ustawić tylko przy użyciu konstruktora.
+        private readonly string _nazwisko;
+
+        public string Nazwisko
+        {
+            get
+            {
+                return _nazwisko;
+            }
+        }
+
         public DateTime DataUrodzenia { get; set; }
+
 
 
         public Czlowiek()
         {
-            // Konstruktor pozwala nam dokonać "konfiguracji" podczas tworzenia obiektów
-            // Tak wygląda domyślny konstruktor - tylko tworzy obiekt
+            // Konstruktor pozwala nam dokonać "konfiguracji" podczas tworzenia obiektów.
+            // Tak wygląda domyślny konstruktor - tylko tworzy obiekt.
         }
 
 
-        // Konstruktor klasy Czlowiek
+        // Konstruktorów może być wiele
         public Czlowiek(string imie, string nazwisko)
         {
             Imie = imie;
-            Nazwisko = nazwisko;
+            _nazwisko = nazwisko;
         }
 
-        // Konstruktorów może być wiele
-        public Czlowiek(string imie, string nazwisko, DateTime dataUrodzenia)
-        {
-            Imie = imie;
-            Nazwisko = nazwisko;
+
+        // Wywołanie innego konstruktora w konstruktorze przy użyciu this()
+        public Czlowiek(string imie, string nazwisko, DateTime dataUrodzenia) : this(imie, nazwisko)
+        {       
             DataUrodzenia = dataUrodzenia;
         }
 
 
-        public void Przedstaw()// metoda klasy Czlowiek
+
+        // metoda klasy Czlowiek
+        public void Przedstaw()
         {
-            Console.WriteLine("{0} {1} ur. {2: yyyy/MM/dd}", Imie, Nazwisko, DataUrodzenia);
+            // Tutaj użyte formatowanie string.format();
+            Console.WriteLine("{0} {1} ur. {2: yyyy/MM/dd}", Imie, _nazwisko, DataUrodzenia);
         }
     }
 }
