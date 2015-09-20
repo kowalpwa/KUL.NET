@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Podstawy_obiektowosci", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AElementyOrazDefiniowanieKlas", "Modules\02.Podstawy_obiektowosci\AElementyOrazDefiniowanieKlas\AElementyOrazDefiniowanieKlas.csproj", "{ED08B045-EC40-41F0-A36D-FA59F44F4367}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTypWyliczeniowy", "Modules\02.Podstawy_obiektowosci\BTypWyliczeniowy\BTypWyliczeniowy\BTypWyliczeniowy.csproj", "{7BFF857A-2464-4F0E-B172-3F8ADC06E615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{ED08B045-EC40-41F0-A36D-FA59F44F4367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED08B045-EC40-41F0-A36D-FA59F44F4367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED08B045-EC40-41F0-A36D-FA59F44F4367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFF857A-2464-4F0E-B172-3F8ADC06E615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFF857A-2464-4F0E-B172-3F8ADC06E615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFF857A-2464-4F0E-B172-3F8ADC06E615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFF857A-2464-4F0E-B172-3F8ADC06E615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +84,6 @@ Global
 		{A2062EDD-D7FE-463A-8D39-81B5675EB975} = {29EF64F1-5D0A-4064-B738-E08EB9212ED4}
 		{D8DA4FAA-4D79-4641-822A-A269CD83FD49} = {A740E613-100B-4E83-B791-4EFE3760596A}
 		{ED08B045-EC40-41F0-A36D-FA59F44F4367} = {D8DA4FAA-4D79-4641-822A-A269CD83FD49}
+		{7BFF857A-2464-4F0E-B172-3F8ADC06E615} = {D8DA4FAA-4D79-4641-822A-A269CD83FD49}
 	EndGlobalSection
 EndGlobal
