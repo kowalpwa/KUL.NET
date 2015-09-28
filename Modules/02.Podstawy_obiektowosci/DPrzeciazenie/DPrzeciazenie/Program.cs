@@ -27,6 +27,7 @@ namespace DPrzeciazenie
             // Najczęstszą przyczyną stosowania przeciążenia jest chęć udostępnienia
             // kilku różnych sposobów wykonania TEGO SAMEGO zadania.
 
+            Console.WriteLine();
 
             obj.Domyslne(1);
 

@@ -21,7 +21,7 @@ namespace DPrzeciazenie
 
         public void Wyswietl()
         {
-            Console.WriteLine();
+            Console.WriteLine("1 wywowałnie bezparametrowe");
         }
 
 
