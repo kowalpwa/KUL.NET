@@ -49,8 +49,7 @@ namespace ADziedziczenie
             Console.WriteLine("\nJestem {0}", czlowiek2.Plec);
 
 
-            Student student2 = (Student) czlowiek1;
-
+            // Nie można przypisać TYPU KLASY BAZOWEJ do TYPU KLASY POCHODNEJ!
 
 
             Console.ReadKey();
