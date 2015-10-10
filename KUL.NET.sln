@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPrzeciazenie", "Modules\02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESkladoweStatyczne", "Modules\02.Podstawy_obiektowosci\ESkladoweStatyczne\ESkladoweStatyczne\ESkladoweStatyczne.csproj", "{F3E15F96-4ECB-4279-8278-6C466B5E4DC3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.RozszerzalnoscIPolimorfizm", "03.RozszerzalnoscIPolimorfizm", "{E1912EB2-9B6D-429C-864F-88CD0F7711E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADziedziczenie", "Modules\03.RozszerzalnoscIPolimorfizm\ADziedziczenie\ADziedziczenie\ADziedziczenie.csproj", "{35BB0AAB-0D7C-4682-9151-1F6C68D75488}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,10 @@ Global
 		{F3E15F96-4ECB-4279-8278-6C466B5E4DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E15F96-4ECB-4279-8278-6C466B5E4DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E15F96-4ECB-4279-8278-6C466B5E4DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BB0AAB-0D7C-4682-9151-1F6C68D75488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BB0AAB-0D7C-4682-9151-1F6C68D75488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BB0AAB-0D7C-4682-9151-1F6C68D75488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BB0AAB-0D7C-4682-9151-1F6C68D75488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,5 +114,7 @@ Global
 		{E460706B-9E5A-47F6-B0D7-4969EBF3BEA1} = {D8DA4FAA-4D79-4641-822A-A269CD83FD49}
 		{741CAE39-4F3F-4BDF-91B5-704835421AD5} = {D8DA4FAA-4D79-4641-822A-A269CD83FD49}
 		{F3E15F96-4ECB-4279-8278-6C466B5E4DC3} = {D8DA4FAA-4D79-4641-822A-A269CD83FD49}
+		{E1912EB2-9B6D-429C-864F-88CD0F7711E5} = {A740E613-100B-4E83-B791-4EFE3760596A}
+		{35BB0AAB-0D7C-4682-9151-1F6C68D75488} = {E1912EB2-9B6D-429C-864F-88CD0F7711E5}
 	EndGlobalSection
 EndGlobal
